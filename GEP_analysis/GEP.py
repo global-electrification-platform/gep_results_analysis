@@ -10,12 +10,12 @@ from rasterio import features
 from rasterio.mask import mask
 from rasterio.features import rasterize
 
-from gep_results import gep_results
 
 class gep_results(object):
     def __init__(self, country,
                 clustersFolder = '/media/gost/DATA/GEP/Clusters',
-                scenariosFolder = '/media/gost/DATA/GEP/Scenarios'):
+                scenariosFolder = '/media/gost/DATA/GEP/Scenarios',
+                scenario = '0_0_0_0_0_0'):
         ''' Object for extracting and processing GEP results files
 
         INPUT
@@ -32,12 +32,12 @@ class gep_results(object):
             if not os.path.exists(self.scenariosZipFile):
                 raise(ValueError(f"The scenario results for {country} have not been downloaded: {self.sampleScenarioFolder}"))
             os.makedirs(self.sampleScenarioFolder)
-            extractedFile = self.extract_sample_scenario(f'{country}-0_0_0_0_0_0.csv', self.sampleScenarioFolder)
+            extractedFile = self.extract_sample_scenario(f'{country}-{scenario}.csv', self.sampleScenarioFolder)
             self.sampleScenarioFile = os.path.join(self.sampleScenarioFolder, extractedFile)
         else:
             for root, folders, files in os.walk(self.sampleScenarioFolder):
                 for f in files:
-                    if f == f'{country}-0_0_0_0_0_0.csv':
+                    if f == f'{country}-{scenario}.csv':
                         self.sampleScenarioFile = os.path.join(root, f)
 
         #Extract the clusters
@@ -82,11 +82,14 @@ class gep_results(object):
         '''
         inD = gpd.read_file(self.clustersFile)
         inRes = pd.read_csv(self.sampleScenarioFile)
+        for x_col in inD.columns:
+            if x_col in inRes.columns and x_col != "id":
+                inD = inD.drop([x_col],axis=1)
         inCombined = pd.merge(inD, inRes, on='id')
 
         #generate additional columns
         # Set 2025 population to 0 where 2030 elec style is different than 2025
-        inCombined['NewConnections2025'][inCombined['FinalElecCode2025'] != inCombined['FinalElecCode2030']] = 0
+        inCombined.loc[inCombined.FinalElecCode2025 != inCombined.FinalElecCode2030, 'NewConnections2025'] = 0
         gridIdx = inCombined['FinalElecCode2030'] == 1.0
         offGridIdx = inCombined['FinalElecCode2030'] != 1.0
         inCombined['GridPop2030'] = (inCombined['NewConnections2030'] + inCombined['NewConnections2025']) * gridIdx
@@ -133,7 +136,8 @@ class gep_results(object):
                  'driver':'GTiff',
                  'transform':nTransform,
                  'height':height,
-                 'width':width}
+                 'width':width,
+                 'nodata': 0}
         inD = inD.sort_values(by=[field], ascending=False)
         shapes = ((row.geometry, row[field]) for idx, row in inD.iterrows())
         with rasterio.open(outFile, 'w', **cMeta) as out:
@@ -145,3 +149,55 @@ class gep_results(object):
                                         merge_alg=rasterio.enums.MergeAlg.replace)
             burned = burned.astype(cMeta['dtype'])
             out.write_band(1, burned)
+
+class gepResults():
+    def __init__(self, s3Folder, localFolder, code):
+        self.s3Folder = s3Folder
+        self.localFolder = localFolder
+        self.countryCode = code
+        self.summaryResultsFolder = os.path.join(localFolder, code, "outputs", "%s-scenarios-summaries" % code)
+
+    def extractSummaries(self):
+        outputFolder = os.path.join(self.localFolder, self.countryCode)
+        if not os.path.exists(outputFolder):
+            os.makedirs(outputFolder)
+        s3ZipFolder = os.path.join(self.s3Folder, self.countryCode, 'outputs')
+        summaryResultsZip = os.path.join(s3ZipFolder, "%s-scenarios-summaries.zip" % self.countryCode)
+        localResultsZip = os.path.join(outputFolder, "%s-scenarios-summaries.zip" % self.countryCode)
+        if not os.path.exists(localResultsZip):
+            shutil.copy(summaryResultsZip, localResultsZip)
+        with zipfile.ZipFile(localResultsZip, 'r') as inZip:
+            inZip.extractall(outputFolder)
+
+    def processSummaryResults(self):
+        # Summarize the scenario files
+        scenarioFiles = os.listdir(self.summaryResultsFolder)
+        for f in scenarioFiles:
+            scenarioName = f[5:16]
+            if int(scenarioName[-1]) == 0:
+                inD = pd.read_csv(os.path.join(self.summaryResultsFolder, f))
+                scenarioName = scenarioName.replace("_","")
+                inD.columns = ["%s_%s" % (x, scenarioName) for x in inD.columns]
+                try:
+                    final = final.join(inD.iloc[:,1:3])
+                except:
+                    final = inD
+        final2025 = final.loc[:,[x for x in final.columns if '2025' in x]]
+        final2030 = final.loc[:,[x for x in final.columns if '2030' in x]]
+        #Calculate summary columns for specific data
+        final2030.loc['4.SA_total'] = final2030.iloc[[25, 26]].apply(lambda x: x.sum())
+        final2030.loc['4.MG_total'] = final2030.iloc[[27, 28, 29, 30, 31]].apply(lambda x: x.sum())
+        ### Running for 2030
+        # Identify the scenario with the minimum and maximum value for each row in the table
+        idxMax = final2030.apply(lambda x: x.idxmax(), axis=1)
+        valMax = final2030.apply(lambda x: x.max(), axis=1)
+        idxMin = final2030.apply(lambda x: x.idxmin(), axis=1)
+        valMin = final2030.apply(lambda x: x.min(), axis=1)
+        curRange = final2030.apply(lambda x: x.max() - x.min(), axis=1)
+        xx = pd.DataFrame([idxMax, valMax, idxMin, valMin, curRange]).transpose()
+        xx_index = list(inD.iloc[:,0])
+        xx_index.append('4.SA_total')
+        xx_index.append('4.MG_total')
+        xx.index = xx_index
+        xx.columns = ["MaxScenario","MaxVal","MinScenario","MinVal","Range"]
+        return(xx)
