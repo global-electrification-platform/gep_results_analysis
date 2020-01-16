@@ -1,8 +1,10 @@
 import os, sys, logging, importlib, math
 import rasterio, affine
 
+import numpy as np
 import geopandas as gpd
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from zipfile import ZipFile
 from affine import Affine
@@ -10,6 +12,78 @@ from rasterio import features
 from rasterio.mask import mask
 from rasterio.features import rasterize
 
+def box_plot(inD, selected_attribute, out_file):
+    data_bad_idx = inD['2025'] == inD['2030']
+    inD = inD[~data_bad_idx]
+    inD['Attribute_Num'] = inD['Attribute'].apply(lambda x: x[:1])
+    inD['bad_model'] = inD['Scenario'].apply(lambda x: int(x[-1:]))
+    inD = inD[inD['bad_model'] == 0]
+    inD['2030_Log'] = np.log(inD['2030'])
+
+
+    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(20, 10))
+    red_square = dict(markerfacecolor='gray', marker='.')
+    boxprops = dict(linestyle='-', linewidth=4, color='g')
+    medianprops = dict(linestyle='--', linewidth=1, color='g')
+
+    plotArgs = {'grid':False,
+                'rot':30,
+                'by':'Attribute',
+                #'sym':'.',
+                'flierprops':red_square,
+                'notch':False,
+                'boxprops':boxprops,
+                'medianprops':medianprops}
+
+    regPlot = inD[inD['Attribute_Num'] == selected_attribute].boxplot('2030', ax=axes[0], **plotArgs)
+    logPlot = inD[inD['Attribute_Num'] == selected_attribute].boxplot('2030_Log', ax=axes[1], **plotArgs)
+    if not out_file == '':
+        fig.savefig(out_file)
+        def summarize_group(x):
+            return(x.min(),x.mean(),x.max())
+
+        res_grouped = inD.groupby(['Attribute'])
+        xx = res_grouped[['2025','2030']].min().join(
+        res_grouped[['2025','2030']].max(), rsuffix="_max").join(
+        res_grouped[['2025','2030']].mean(), rsuffix="_mean")
+        pd.DataFrame(xx).to_csv(out_file.replace('.png', '.csv'))
+    return(inD)
+
+def extract_plot(joined_data, selected_attribute, selected_scenario, title, chart_folder, plot=True):
+    selected_index = [x for x in joined_data.index if (x[0][:1] == selected_attribute and x[1] == selected_scenario)]
+    selected_data = joined_data.loc[selected_index]
+    data_bad_idx = selected_data['2025'] == selected_data['2030']
+    selected_data = selected_data[~data_bad_idx]
+    if plot:
+        xLabels = [x[0][2:] for x in selected_index]
+        figure_title = xLabels[0].split("_")[0]
+
+        fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(20, 10))
+        selected_plot = selected_data.plot.bar(rot=30, ax=axes[0], title=f"{title} - Normal")
+        selected_plot.set_xticklabels(xLabels)
+        selected_plot.set_xlabel(f'Scenario - {selected_scenario}')
+
+        logged_plot = selected_data.plot.bar(rot=30, ax=axes[1], logy=True, title=f"{title} - Logged")
+        logged_plot.set_xticklabels(xLabels)
+        logged_plot.set_xlabel(f'Scenario - {selected_scenario}')
+        fig.savefig(f"{chart_folder}_{selected_scenario}_{title}_{figure_title}.png")
+    return(selected_data)
+
+class gep_summary(object):
+    def __init__(self, file):
+        self.file = file
+        self.file_name = os.path.basename(file)
+        self.country = self.file_name[:4]
+        self.scenario = self.file_name[5:16]
+
+    def get_data(self):
+        self.summary_data = pd.read_csv(self.file)
+        self.summary_data['Country'] = self.country
+        self.summary_data['Scenario'] = self.scenario
+        return(self.summary_data)
+
+    def __str__(self):
+        return(f'{self.country} : {self.scenario}')
 
 class gep_results(object):
     def __init__(self, country,
