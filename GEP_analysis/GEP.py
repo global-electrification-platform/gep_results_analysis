@@ -12,6 +12,65 @@ from rasterio import features
 from rasterio.mask import mask
 from rasterio.features import rasterize
 
+
+scenario_defs = {
+               0:[["Medium","High"], "Population growth"],
+               1:[["Top-down low","Top-down high", "bottom up"], "Electricity demand target"],
+               2:[["No connections cap","Capped connections in 2025"], "Intermediate investment"],
+               3:[["Estimated","High"], "Grid generation cost"],
+               4:[["Estimated","High", "Low"], "PV cost"],
+               5:[["Least-cost nationwide","Only grid within 1 km","Only grid within 2 km"], "Rollout"],
+               }
+
+def get_assumptions(input_scenario):
+    """ Convert the six digit scenario into a list of assumptions
+
+    input_scenario [string] - 1_0_0_1_0_0
+    """
+    scenario_results = []
+    scenario_split = input_scenario.split("_")
+    for val in range(0, len(scenario_split)):
+        cur_def = scenario_defs[val]
+        cur_val = cur_def[0][int(scenario_split[val])]
+        scenario_results.append(f'{cur_def[1]}: {cur_val}')
+    return(scenario_results)
+
+# Functions used throughout the code to re-classify variables
+def get_continent(x):
+    ''' classify power pools - used in pandas apply function
+    '''
+    EAPP = [f'{x}-1' for x in ['bi','dj','et','ke','ly','rw','sd','ss','ug']]
+    WAPP = [f'{x}-1' for x in ['bf','bj','ci','gh','gm','gn','gw','lr','ml','ng','sl','sn','tg']]
+    SAPP = [f'{x}-1' for x in ['ao','bw','ls','mw','mz','na','sz','tz','za','zm','zw']]
+    AFR =  [f'{x}-1' for x in ['cd','cg','cf','cm','er','ga','gq','km','mg','mr','ne','so','st','td']]
+    if x in EAPP:
+        return('AFR')
+    if x in WAPP:
+        return('AFR')
+    if x in SAPP:
+        return('AFR')
+    if x in AFR:
+        return('AFR')
+    return("other")
+
+# Functions used throughout the code to re-classify variables
+def get_pp(x):
+    ''' classify power pools - used in pandas apply function
+    '''
+    EAPP = [f'{x}-1' for x in ['bi','dj','et','ke','ly','rw','sd','ss','ug']]
+    WAPP = [f'{x}-1' for x in ['bf','bj','ci','gh','gm','gn','gw','lr','ml','ng','sl','sn','tg']]
+    SAPP = [f'{x}-1' for x in ['ao','bw','ls','mw','mz','na','sz','tz','za','zm','zw']]
+    AFR = [f'{x}-1' for x in ['cd','cg','cf','cm','er','ga','gq','km','mg','mr','ne','so','st','td']]
+    if x in EAPP:
+        return('EAPP')
+    if x in WAPP:
+        return('WAPP')
+    if x in SAPP:
+        return('SAPP')
+    if x in AFR:
+        return('AFR')
+    return("other")
+
 def box_plot(inD, selected_attribute, out_file):
     data_bad_idx = inD['2025'] == inD['2030']
     inD = inD[~data_bad_idx]
