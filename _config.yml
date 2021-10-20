@@ -5,5 +5,5 @@ description: The Global Electrification Platform (GEP) - electrifynow.energydata
     high-level, least-cost electrification plans for 58 countries, comprising 90% of the world's
     unelectrified population. This website is for exploring the data and summaries of those scenarios
     to generate summaries and aggregations for simplified explorations.
-theme: jekyll-theme-slate
+theme: minima
 show_excerpts: true
