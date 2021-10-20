@@ -6,3 +6,4 @@ description: The Global Electrification Platform (GEP) - electrifynow.energydata
     unelectrified population. This website is for exploring the data and summaries of those scenarios
     to generate summaries and aggregations for simplified explorations.
 theme: jekyll-theme-slate
+show_excerpts: true
