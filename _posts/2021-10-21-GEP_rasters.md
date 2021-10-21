@@ -7,4 +7,4 @@ The results from the GEP models are scenarios as csv files describing the partic
 
 The detailed jupyter notebook [can be found here](), and the results of rasterizing the default scenario is below.
 
-![GEP default Scenario](media/GEP_v2_0_0_0_1_0_0.png)
+![GEP default Scenario](https://github.com/global-electrification-platform/gep_results_analysis/blob/gh-pages/_posts/media/GEP_v2_0_0_0_1_0_0.png)
