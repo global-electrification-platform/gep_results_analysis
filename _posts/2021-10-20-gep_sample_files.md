@@ -7,7 +7,9 @@ Each scenario for each country generates the following summary file; this descri
 
 
 ### Sample Table
-|                                      | 2025        | 2030        |
+This is a sample scenario file
+
+| Summary                              | 2025        | 2030        |
 | ------------------------------------ | ----------- | ----------- |
 | 1.Population\_Grid                   | 21426525.49 | 36022335.75 |
 | 1.Population\_SA\_Diesel             | 0           | 0           |
