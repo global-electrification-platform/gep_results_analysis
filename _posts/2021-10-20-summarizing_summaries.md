@@ -29,6 +29,7 @@ Based on the analysis of the summary scenario files, the total cost to reach uni
 | TOTAL          | Capacity added      | 81,762,591       | 25,501,763      | 184,242,089      | 64,497,428       | 22,841,925      | 163,501,839      |
 | TOTAL          | Investment required | $240,093,383,176 | $78,204,225,762 | $480,992,739,898 | $191,385,301,460 | $68,404,734,820 | $420,165,598,499 |
 
+This line is inserted to make this work
 
 ## Discussion
 There is a $350 billion gap in our estimates to achieve universal electrification, driven by our confidence in the data surrounding our estimates. Data on expectations of consumer demand, current electrification status, and national grid infrastructure. 
