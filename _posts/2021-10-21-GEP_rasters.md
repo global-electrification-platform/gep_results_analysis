@@ -7,7 +7,7 @@ The results from the GEP models are scenarios as csv files describing the partic
 
 The detailed jupyter notebook [can be found here](https://github.com/global-electrification-platform/gep_results_analysis/blob/master/GEP_analysis/GEP_rasterize_results.ipynb), and the results of rasterizing the default scenario is below.
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="GEP default map" src="//www.arcgis.com/apps/Embed/index.html?webmap=b2fdb4d597a049b9b6d498eedd3f4d5f&extent=-27.9107,-48.8213,58.0464,42.6664&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="GEP default map" src="//www.arcgis.com/apps/Embed/index.html?webmap=b2fdb4d597a049b9b6d498eedd3f4d5f&extent=-27.9107,-48.8213,58.0464,42.6664&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
   
 ### Static image  
   
