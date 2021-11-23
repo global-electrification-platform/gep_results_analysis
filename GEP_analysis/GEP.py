@@ -96,8 +96,10 @@ def get_simple_tech(x):
     x_spl = x.split("_")
     if x_spl[-1] == "Grid":
         return("GRID")
+    elif "Connections" in x:
+        return(x_spl[2])
     else:
-        return(x_spl[-2])
+        return(x_spl[1])
 
 def box_plot(inD, selected_attribute, out_file):
     data_bad_idx = inD['2025'] == inD['2030']
