@@ -189,7 +189,7 @@ class gep_results(object):
         self.clustersZipFile = os.path.join(clustersFolder, f'{country}.zip')
         self.scenariosZipFile = os.path.join(scenariosFolder, 'zipfiles', f'{country}-scenarios-results.zip')
         # Define clusters file
-        countryClustersFolder = os.path.join(clustersFolder, f'{country.split("-")[0]}-1')
+        countryClustersFolder = os.path.join(clustersFolder, country)
         for x in os.listdir(countryClustersFolder):
             if x.endswith(".shp"):
                 self.clustersFile = os.path.join(countryClustersFolder, x)
@@ -280,7 +280,7 @@ class gep_results(object):
 
 
     def rasterize_results(self, inD, outFile,
-                          field='FinalElecCode2030', res=0.1, dtype='uint8'):
+                          field='FinalElecCode2030', res=0.1, dtype='uint8', merge_alg='REPLACE'):
         ''' Create raster describing a field in the shapefile
 
         INPUT
@@ -289,6 +289,11 @@ class gep_results(object):
         [ optional ] field [ string ] - column to rasterize from inD
         [ optional ] res [ number ] - resolution of output raster in units of inD crs
         '''
+
+        if merge_alg == "REPLACE":
+            merge_alg = rasterio.enums.MergeAlg.replace
+        else:
+            merge_alg = rasterio.enums.MergeAlg.add
 
         # create metadata
         bounds = inD.total_bounds
@@ -315,58 +320,6 @@ class gep_results(object):
                                         all_touched=True,
                                         out_shape=(cMeta['height'], cMeta['width']),
                                         transform=out.transform,
-                                        merge_alg=rasterio.enums.MergeAlg.replace)
+                                        merge_alg=merge_alg)
             burned = burned.astype(cMeta['dtype'])
             out.write_band(1, burned)
-
-class gepResults():
-    def __init__(self, s3Folder, localFolder, code):
-        self.s3Folder = s3Folder
-        self.localFolder = localFolder
-        self.countryCode = code
-        self.summaryResultsFolder = os.path.join(localFolder, code, "outputs", "%s-scenarios-summaries" % code)
-
-    def extractSummaries(self):
-        outputFolder = os.path.join(self.localFolder, self.countryCode)
-        if not os.path.exists(outputFolder):
-            os.makedirs(outputFolder)
-        s3ZipFolder = os.path.join(self.s3Folder, self.countryCode, 'outputs')
-        summaryResultsZip = os.path.join(s3ZipFolder, "%s-scenarios-summaries.zip" % self.countryCode)
-        localResultsZip = os.path.join(outputFolder, "%s-scenarios-summaries.zip" % self.countryCode)
-        if not os.path.exists(localResultsZip):
-            shutil.copy(summaryResultsZip, localResultsZip)
-        with zipfile.ZipFile(localResultsZip, 'r') as inZip:
-            inZip.extractall(outputFolder)
-
-    def processSummaryResults(self):
-        # Summarize the scenario files
-        scenarioFiles = os.listdir(self.summaryResultsFolder)
-        for f in scenarioFiles:
-            scenarioName = f[5:16]
-            if int(scenarioName[-1]) == 0:
-                inD = pd.read_csv(os.path.join(self.summaryResultsFolder, f))
-                scenarioName = scenarioName.replace("_","")
-                inD.columns = ["%s_%s" % (x, scenarioName) for x in inD.columns]
-                try:
-                    final = final.join(inD.iloc[:,1:3])
-                except:
-                    final = inD
-        final2025 = final.loc[:,[x for x in final.columns if '2025' in x]]
-        final2030 = final.loc[:,[x for x in final.columns if '2030' in x]]
-        #Calculate summary columns for specific data
-        final2030.loc['4.SA_total'] = final2030.iloc[[25, 26]].apply(lambda x: x.sum())
-        final2030.loc['4.MG_total'] = final2030.iloc[[27, 28, 29, 30, 31]].apply(lambda x: x.sum())
-        ### Running for 2030
-        # Identify the scenario with the minimum and maximum value for each row in the table
-        idxMax = final2030.apply(lambda x: x.idxmax(), axis=1)
-        valMax = final2030.apply(lambda x: x.max(), axis=1)
-        idxMin = final2030.apply(lambda x: x.idxmin(), axis=1)
-        valMin = final2030.apply(lambda x: x.min(), axis=1)
-        curRange = final2030.apply(lambda x: x.max() - x.min(), axis=1)
-        xx = pd.DataFrame([idxMax, valMax, idxMin, valMin, curRange]).transpose()
-        xx_index = list(inD.iloc[:,0])
-        xx_index.append('4.SA_total')
-        xx_index.append('4.MG_total')
-        xx.index = xx_index
-        xx.columns = ["MaxScenario","MaxVal","MinScenario","MinVal","Range"]
-        return(xx)
