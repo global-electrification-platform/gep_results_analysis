@@ -1,4 +1,4 @@
-import os, sys, logging, importlib, math
+import os, math, boto3, io, zipfile
 import rasterio, affine
 
 import numpy as np
@@ -7,7 +7,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from zipfile import ZipFile
-from affine import Affine
 from rasterio import features
 from rasterio.mask import mask
 from rasterio.features import rasterize
@@ -28,6 +27,34 @@ summary_defs = {
 	3:'Capacity added',
 	4:'Investment required'
 }
+
+
+def extract_single_file_from_s3_zip(bucket_name, zip_key, file_to_extract, destination_path):
+    """
+    Extracts a single file from a zip archive stored in S3.
+
+    Args:
+        bucket_name (str): The name of the S3 bucket.
+        zip_key (str): The S3 key of the zip archive.
+        file_to_extract (str): The name of the file to extract.
+        destination_path (str): The local path to save the extracted file.
+    """
+    s3 = boto3.client('s3', verify=False)
+
+    try:
+        # Download the zip file from S3 into a BytesIO object
+        zip_obj = s3.get_object(Bucket=bucket_name, Key=zip_key)
+        buffer = io.BytesIO(zip_obj['Body'].read())
+
+        # Open the zip file from the buffer
+        with zipfile.ZipFile(buffer) as zf:
+            # Extract the specific file
+            zf.extract(file_to_extract, destination_path)
+
+        print(f"File '{file_to_extract}' extracted to '{destination_path}'")
+
+    except Exception as e:
+        print(f"Error extracting file: {e}")
 
 def get_assumptions(input_scenario):
     """ Convert the six digit scenario into a list of assumptions
@@ -178,7 +205,7 @@ class gep_results(object):
     def __init__(self, country,
                 clustersFolder = '/media/gost/DATA1/GEP/Clusters',
                 scenariosFolder = '/media/gost/DATA1/GEP/Scenarios',
-                scenario = '0_0_0_0_0_0'):
+                scenario = '0_0_0_0_1Shoot_0'):
         ''' Object for extracting and processing GEP results files
 
         INPUT
@@ -199,7 +226,7 @@ class gep_results(object):
             if x.startswith(country):
                 self.scenarioFile = os.path.join(scenarioFolder, x)
 
-    def initiate():
+    def initiate(clustersFolder, country):
         #Extract the clusters
         self.countryClustersFolder = os.path.join(clustersFolder, country)
         try:

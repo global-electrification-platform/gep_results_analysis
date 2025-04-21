@@ -1,0 +1,291 @@
+Name,Path,Country,Country Name,EDI_link
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ao/inputs/ao-3-country-inputs.csv,ao,Angola,https://energydata.info/dataset/angola-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ao/inputs/ao-3-specs.xlsx,ao,Angola,https://energydata.info/dataset/angola-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ao/outputs/ao-3-scenarios-results.zip,ao,Angola,https://energydata.info/dataset/angola-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ao/outputs/ao-3-scenarios-summaries.zip,ao,Angola,https://energydata.info/dataset/angola-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ao,Angola,https://energydata.info/dataset/angola-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/bd/inputs/bd-3-country-inputs.csv,bd,Bangladesh,https://energydata.info/dataset/bangladesh-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/bd/inputs/bd-3-specs.xlsx,bd,Bangladesh,https://energydata.info/dataset/bangladesh-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/bd/outputs/bd-3-scenarios-results.zip,bd,Bangladesh,https://energydata.info/dataset/bangladesh-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/bd/outputs/bd-3-scenarios-summaries.zip,bd,Bangladesh,https://energydata.info/dataset/bangladesh-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,bd,Bangladesh,https://energydata.info/dataset/bangladesh-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/bf/inputs/bf-3-country-inputs.csv,bf,Burkina Faso,https://energydata.info/dataset/burkina-faso-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/bf/inputs/bf-3-specs.xlsx,bf,Burkina Faso,https://energydata.info/dataset/burkina-faso-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/bf/outputs/bf-3-scenarios-results.zip,bf,Burkina Faso,https://energydata.info/dataset/burkina-faso-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/bf/outputs/bf-3-scenarios-summaries.zip,bf,Burkina Faso,https://energydata.info/dataset/burkina-faso-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,bf,Burkina Faso,https://energydata.info/dataset/burkina-faso-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/bi/inputs/bi-3-country-inputs.csv,bi,Burundi,https://energydata.info/dataset/burundi-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/bi/inputs/bi-3-specs.xlsx,bi,Burundi,https://energydata.info/dataset/burundi-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/bi/outputs/bi-3-scenarios-results.zip,bi,Burundi,https://energydata.info/dataset/burundi-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/bi/outputs/bi-3-scenarios-summaries.zip,bi,Burundi,https://energydata.info/dataset/burundi-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,bi,Burundi,https://energydata.info/dataset/burundi-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/bj/inputs/bj-3-country-inputs.csv,bj,Benin,https://energydata.info/dataset/benin-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/bj/inputs/bj-3-specs.xlsx,bj,Benin,https://energydata.info/dataset/benin-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/bj/outputs/bj-3-scenarios-results.zip,bj,Benin,https://energydata.info/dataset/benin-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/bj/outputs/bj-3-scenarios-summaries.zip,bj,Benin,https://energydata.info/dataset/benin-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,bj,Benin,https://energydata.info/dataset/benin-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/bw/inputs/bw-3-country-inputs.csv,bw,Botswana,https://energydata.info/dataset/botswana-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/bw/inputs/bw-3-specs.xlsx,bw,Botswana,https://energydata.info/dataset/botswana-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/bw/outputs/bw-3-scenarios-results.zip,bw,Botswana,https://energydata.info/dataset/botswana-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/bw/outputs/bw-3-scenarios-summaries.zip,bw,Botswana,https://energydata.info/dataset/botswana-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,bw,Botswana,https://energydata.info/dataset/botswana-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/cd/inputs/cd-3-country-inputs.csv,cd,"Congo, The Democratic Republic of the",https://energydata.info/dataset/democratic-republic-of-congo-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/cd/inputs/cd-3-specs.xlsx,cd,"Congo, The Democratic Republic of the",https://energydata.info/dataset/democratic-republic-of-congo-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/cd/outputs/cd-3-scenarios-results.zip,cd,"Congo, The Democratic Republic of the",https://energydata.info/dataset/democratic-republic-of-congo-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/cd/outputs/cd-3-scenarios-summaries.zip,cd,"Congo, The Democratic Republic of the",https://energydata.info/dataset/democratic-republic-of-congo-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,cd,"Congo, The Democratic Republic of the",https://energydata.info/dataset/democratic-republic-of-congo-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/cf/inputs/cf-3-country-inputs.csv,cf,Central African Republic,https://energydata.info/dataset/central-african-republic-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/cf/inputs/cf-3-specs.xlsx,cf,Central African Republic,https://energydata.info/dataset/central-african-republic-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/cf/outputs/cf-3-scenarios-results.zip,cf,Central African Republic,https://energydata.info/dataset/central-african-republic-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/cf/outputs/cf-3-scenarios-summaries.zip,cf,Central African Republic,https://energydata.info/dataset/central-african-republic-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,cf,Central African Republic,https://energydata.info/dataset/central-african-republic-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/cg/inputs/cg-3-country-inputs.csv,cg,Congo,https://energydata.info/dataset/congo-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/cg/inputs/cg-3-specs.xlsx,cg,Congo,https://energydata.info/dataset/congo-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/cg/outputs/cg-3-scenarios-results.zip,cg,Congo,https://energydata.info/dataset/congo-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/cg/outputs/cg-3-scenarios-summaries.zip,cg,Congo,https://energydata.info/dataset/congo-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,cg,Congo,https://energydata.info/dataset/congo-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ci/inputs/ci-3-country-inputs.csv,ci,Cote d'Ivoire,https://energydata.info/dataset/cote-divoire-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ci/inputs/ci-3-specs.xlsx,ci,Cote d'Ivoire,https://energydata.info/dataset/cote-divoire-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ci/outputs/ci-3-scenarios-results.zip,ci,Cote d'Ivoire,https://energydata.info/dataset/cote-divoire-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ci/outputs/ci-3-scenarios-summaries.zip,ci,Cote d'Ivoire,https://energydata.info/dataset/cote-divoire-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ci,Cote d'Ivoire,https://energydata.info/dataset/cote-divoire-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/cm/inputs/cm-3-country-inputs.csv,cm,Cameroon,https://energydata.info/dataset/cameroon-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/cm/inputs/cm-3-specs.xlsx,cm,Cameroon,https://energydata.info/dataset/cameroon-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/cm/outputs/cm-3-scenarios-results.zip,cm,Cameroon,https://energydata.info/dataset/cameroon-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/cm/outputs/cm-3-scenarios-summaries.zip,cm,Cameroon,https://energydata.info/dataset/cameroon-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,cm,Cameroon,https://energydata.info/dataset/cameroon-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/dj/inputs/dj-3-country-inputs.csv,dj,Djibouti,https://energydata.info/dataset/djibouti-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/dj/inputs/dj-3-specs.xlsx,dj,Djibouti,https://energydata.info/dataset/djibouti-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/dj/outputs/dj-3-scenarios-results.zip,dj,Djibouti,https://energydata.info/dataset/djibouti-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/dj/outputs/dj-3-scenarios-summaries.zip,dj,Djibouti,https://energydata.info/dataset/djibouti-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,dj,Djibouti,https://energydata.info/dataset/djibouti-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/er/inputs/er-3-country-inputs.csv,er,Eritrea,https://energydata.info/dataset/eritrea-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/er/inputs/er-3-specs.xlsx,er,Eritrea,https://energydata.info/dataset/eritrea-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/er/outputs/er-3-scenarios-results.zip,er,Eritrea,https://energydata.info/dataset/eritrea-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/er/outputs/er-3-scenarios-summaries.zip,er,Eritrea,https://energydata.info/dataset/eritrea-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,er,Eritrea,https://energydata.info/dataset/eritrea-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/et/inputs/et-3-country-inputs.csv,et,Ethiopia,https://energydata.info/dataset/ethiopia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/et/inputs/et-3-specs.xlsx,et,Ethiopia,https://energydata.info/dataset/ethiopia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/et/outputs/et-3-scenarios-results.zip,et,Ethiopia,https://energydata.info/dataset/ethiopia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/et/outputs/et-3-scenarios-summaries.zip,et,Ethiopia,https://energydata.info/dataset/ethiopia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,et,Ethiopia,https://energydata.info/dataset/ethiopia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/fm/inputs/fm-3-country-inputs.csv,fm,"Micronesia, Federated States of",https://energydata.info/dataset/federated-states-of-micronesia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/fm/inputs/fm-3-specs.xlsx,fm,"Micronesia, Federated States of",https://energydata.info/dataset/federated-states-of-micronesia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/fm/outputs/fm-3-scenarios-results.zip,fm,"Micronesia, Federated States of",https://energydata.info/dataset/federated-states-of-micronesia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/fm/outputs/fm-3-scenarios-summaries.zip,fm,"Micronesia, Federated States of",https://energydata.info/dataset/federated-states-of-micronesia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,fm,"Micronesia, Federated States of",https://energydata.info/dataset/federated-states-of-micronesia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ga/inputs/ga-3-country-inputs.csv,ga,Gabon,https://energydata.info/dataset/gabon-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ga/inputs/ga-3-specs.xlsx,ga,Gabon,https://energydata.info/dataset/gabon-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ga/outputs/ga-3-scenarios-results.zip,ga,Gabon,https://energydata.info/dataset/gabon-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ga/outputs/ga-3-scenarios-summaries.zip,ga,Gabon,https://energydata.info/dataset/gabon-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ga,Gabon,https://energydata.info/dataset/gabon-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/gh/inputs/gh-3-country-inputs.csv,gh,Ghana,https://energydata.info/dataset/ghana-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/gh/inputs/gh-3-specs.xlsx,gh,Ghana,https://energydata.info/dataset/ghana-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/gh/outputs/gh-3-scenarios-results.zip,gh,Ghana,https://energydata.info/dataset/ghana-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/gh/outputs/gh-3-scenarios-summaries.zip,gh,Ghana,https://energydata.info/dataset/ghana-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,gh,Ghana,https://energydata.info/dataset/ghana-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/gm/inputs/gm-3-country-inputs.csv,gm,Gambia,https://energydata.info/dataset/the-gambia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/gm/inputs/gm-3-specs.xlsx,gm,Gambia,https://energydata.info/dataset/the-gambia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/gm/outputs/gm-3-scenarios-results.zip,gm,Gambia,https://energydata.info/dataset/the-gambia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/gm/outputs/gm-3-scenarios-summaries.zip,gm,Gambia,https://energydata.info/dataset/the-gambia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,gm,Gambia,https://energydata.info/dataset/the-gambia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/gn/inputs/gn-3-country-inputs.csv,gn,Guinea,https://energydata.info/dataset/guinea-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/gn/inputs/gn-3-specs.xlsx,gn,Guinea,https://energydata.info/dataset/guinea-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/gn/outputs/gn-3-scenarios-results.zip,gn,Guinea,https://energydata.info/dataset/guinea-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/gn/outputs/gn-3-scenarios-summaries.zip,gn,Guinea,https://energydata.info/dataset/guinea-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,gn,Guinea,https://energydata.info/dataset/guinea-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/gq/inputs/gq-3-country-inputs.csv,gq,Equatorial Guinea,https://energydata.info/dataset/equatorial-guinea-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/gq/inputs/gq-3-specs.xlsx,gq,Equatorial Guinea,https://energydata.info/dataset/equatorial-guinea-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/gq/outputs/gq-3-scenarios-results.zip,gq,Equatorial Guinea,https://energydata.info/dataset/equatorial-guinea-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/gq/outputs/gq-3-scenarios-summaries.zip,gq,Equatorial Guinea,https://energydata.info/dataset/equatorial-guinea-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,gq,Equatorial Guinea,https://energydata.info/dataset/equatorial-guinea-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/gw/inputs/gw-3-country-inputs.csv,gw,Guinea-Bissau,https://energydata.info/dataset/guinea-bissau-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/gw/inputs/gw-3-specs.xlsx,gw,Guinea-Bissau,https://energydata.info/dataset/guinea-bissau-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/gw/outputs/gw-3-scenarios-results.zip,gw,Guinea-Bissau,https://energydata.info/dataset/guinea-bissau-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/gw/outputs/gw-3-scenarios-summaries.zip,gw,Guinea-Bissau,https://energydata.info/dataset/guinea-bissau-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,gw,Guinea-Bissau,https://energydata.info/dataset/guinea-bissau-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/hn/inputs/hn-3-country-inputs.csv,hn,Honduras,https://energydata.info/dataset/honduras-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/hn/inputs/hn-3-specs.xlsx,hn,Honduras,https://energydata.info/dataset/honduras-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/hn/outputs/hn-3-scenarios-results.zip,hn,Honduras,https://energydata.info/dataset/honduras-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/hn/outputs/hn-3-scenarios-summaries.zip,hn,Honduras,https://energydata.info/dataset/honduras-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,hn,Honduras,https://energydata.info/dataset/honduras-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ht/inputs/ht-3-country-inputs.csv,ht,Haiti,https://energydata.info/dataset/haiti-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ht/inputs/ht-3-specs.xlsx,ht,Haiti,https://energydata.info/dataset/haiti-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ht/outputs/ht-3-scenarios-results.zip,ht,Haiti,https://energydata.info/dataset/haiti-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ht/outputs/ht-3-scenarios-summaries.zip,ht,Haiti,https://energydata.info/dataset/haiti-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ht,Haiti,https://energydata.info/dataset/haiti-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ke/inputs/ke-3-country-inputs.csv,ke,Kenya,https://energydata.info/dataset/kenya-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ke/inputs/ke-3-specs.xlsx,ke,Kenya,https://energydata.info/dataset/kenya-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ke/outputs/ke-3-scenarios-results.zip,ke,Kenya,https://energydata.info/dataset/kenya-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ke/outputs/ke-3-scenarios-summaries.zip,ke,Kenya,https://energydata.info/dataset/kenya-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ke,Kenya,https://energydata.info/dataset/kenya-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/kh/inputs/kh-3-country-inputs.csv,kh,Cambodia,https://energydata.info/dataset/cambodia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/kh/inputs/kh-3-specs.xlsx,kh,Cambodia,https://energydata.info/dataset/cambodia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/kh/outputs/kh-3-scenarios-results.zip,kh,Cambodia,https://energydata.info/dataset/cambodia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/kh/outputs/kh-3-scenarios-summaries.zip,kh,Cambodia,https://energydata.info/dataset/cambodia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,kh,Cambodia,https://energydata.info/dataset/cambodia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/km/inputs/km-3-country-inputs.csv,km,Comoros,https://energydata.info/dataset/comoros-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/km/inputs/km-3-specs.xlsx,km,Comoros,https://energydata.info/dataset/comoros-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/km/outputs/km-3-scenarios-results.zip,km,Comoros,https://energydata.info/dataset/comoros-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/km/outputs/km-3-scenarios-summaries.zip,km,Comoros,https://energydata.info/dataset/comoros-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,km,Comoros,https://energydata.info/dataset/comoros-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/lr/inputs/lr-3-country-inputs.csv,lr,Liberia,https://energydata.info/dataset/liberia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/lr/inputs/lr-3-specs.xlsx,lr,Liberia,https://energydata.info/dataset/liberia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/lr/outputs/lr-3-scenarios-results.zip,lr,Liberia,https://energydata.info/dataset/liberia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/lr/outputs/lr-3-scenarios-summaries.zip,lr,Liberia,https://energydata.info/dataset/liberia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,lr,Liberia,https://energydata.info/dataset/liberia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ls/inputs/ls-3-country-inputs.csv,ls,Lesotho,https://energydata.info/dataset/lesotho-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ls/inputs/ls-3-specs.xlsx,ls,Lesotho,https://energydata.info/dataset/lesotho-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ls/outputs/ls-3-scenarios-results.zip,ls,Lesotho,https://energydata.info/dataset/lesotho-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ls/outputs/ls-3-scenarios-summaries.zip,ls,Lesotho,https://energydata.info/dataset/lesotho-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ls,Lesotho,https://energydata.info/dataset/lesotho-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/mg/inputs/mg-3-country-inputs.csv,mg,Madagascar,https://energydata.info/dataset/madagascar-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/mg/inputs/mg-3-specs.xlsx,mg,Madagascar,https://energydata.info/dataset/madagascar-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/mg/outputs/mg-3-scenarios-results.zip,mg,Madagascar,https://energydata.info/dataset/madagascar-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/mg/outputs/mg-3-scenarios-summaries.zip,mg,Madagascar,https://energydata.info/dataset/madagascar-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,mg,Madagascar,https://energydata.info/dataset/madagascar-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ml/inputs/ml-3-country-inputs.csv,ml,Mali,https://energydata.info/dataset/mali-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ml/inputs/ml-3-specs.xlsx,ml,Mali,https://energydata.info/dataset/mali-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ml/outputs/ml-3-scenarios-results.zip,ml,Mali,https://energydata.info/dataset/mali-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ml/outputs/ml-3-scenarios-summaries.zip,ml,Mali,https://energydata.info/dataset/mali-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ml,Mali,https://energydata.info/dataset/mali-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/mm/inputs/mm-3-country-inputs.csv,mm,Myanmar,https://energydata.info/dataset/myanmar-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/mm/inputs/mm-3-specs.xlsx,mm,Myanmar,https://energydata.info/dataset/myanmar-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/mm/outputs/mm-3-scenarios-results.zip,mm,Myanmar,https://energydata.info/dataset/myanmar-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/mm/outputs/mm-3-scenarios-summaries.zip,mm,Myanmar,https://energydata.info/dataset/myanmar-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,mm,Myanmar,https://energydata.info/dataset/myanmar-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/mr/inputs/mr-3-country-inputs.csv,mr,Mauritania,https://energydata.info/dataset/mauritania-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/mr/inputs/mr-3-specs.xlsx,mr,Mauritania,https://energydata.info/dataset/mauritania-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/mr/outputs/mr-3-scenarios-results.zip,mr,Mauritania,https://energydata.info/dataset/mauritania-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/mr/outputs/mr-3-scenarios-summaries.zip,mr,Mauritania,https://energydata.info/dataset/mauritania-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,mr,Mauritania,https://energydata.info/dataset/mauritania-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/mw/inputs/mw-3-country-inputs.csv,mw,Malawi,https://energydata.info/dataset/malawi-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/mw/inputs/mw-3-specs.xlsx,mw,Malawi,https://energydata.info/dataset/malawi-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/mw/outputs/mw-3-scenarios-results.zip,mw,Malawi,https://energydata.info/dataset/malawi-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/mw/outputs/mw-3-scenarios-summaries.zip,mw,Malawi,https://energydata.info/dataset/malawi-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,mw,Malawi,https://energydata.info/dataset/malawi-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/mz/inputs/mz-3-country-inputs.csv,mz,Mozambique,https://energydata.info/dataset/mozambique-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/mz/inputs/mz-3-specs.xlsx,mz,Mozambique,https://energydata.info/dataset/mozambique-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/mz/outputs/mz-3-scenarios-results.zip,mz,Mozambique,https://energydata.info/dataset/mozambique-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/mz/outputs/mz-3-scenarios-summaries.zip,mz,Mozambique,https://energydata.info/dataset/mozambique-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,mz,Mozambique,https://energydata.info/dataset/mozambique-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/na/inputs/na-3-country-inputs.csv,na,Namibia,https://energydata.info/dataset/namibia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/na/inputs/na-3-specs.xlsx,na,Namibia,https://energydata.info/dataset/namibia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/na/outputs/na-3-scenarios-results.zip,na,Namibia,https://energydata.info/dataset/namibia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/na/outputs/na-3-scenarios-summaries.zip,na,Namibia,https://energydata.info/dataset/namibia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,na,Namibia,https://energydata.info/dataset/namibia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ne/inputs/ne-3-country-inputs.csv,ne,Niger,https://energydata.info/dataset/niger-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ne/inputs/ne-3-specs.xlsx,ne,Niger,https://energydata.info/dataset/niger-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ne/outputs/ne-3-scenarios-results.zip,ne,Niger,https://energydata.info/dataset/niger-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ne/outputs/ne-3-scenarios-summaries.zip,ne,Niger,https://energydata.info/dataset/niger-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ne,Niger,https://energydata.info/dataset/niger-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ng/inputs/ng-3-country-inputs.csv,ng,Nigeria,https://energydata.info/dataset/nigeria-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ng/inputs/ng-3-specs.xlsx,ng,Nigeria,https://energydata.info/dataset/nigeria-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ng/outputs/ng-3-scenarios-results.zip,ng,Nigeria,https://energydata.info/dataset/nigeria-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ng/outputs/ng-3-scenarios-summaries.zip,ng,Nigeria,https://energydata.info/dataset/nigeria-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ng,Nigeria,https://energydata.info/dataset/nigeria-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ni/inputs/ni-3-country-inputs.csv,ni,Nicaragua,https://energydata.info/dataset/nicaragua-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ni/inputs/ni-3-specs.xlsx,ni,Nicaragua,https://energydata.info/dataset/nicaragua-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ni/outputs/ni-3-scenarios-results.zip,ni,Nicaragua,https://energydata.info/dataset/nicaragua-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ni/outputs/ni-3-scenarios-summaries.zip,ni,Nicaragua,https://energydata.info/dataset/nicaragua-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ni,Nicaragua,https://energydata.info/dataset/nicaragua-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/pg/inputs/pg-3-country-inputs.csv,pg,Papua New Guinea,https://energydata.info/dataset/papua-new-guinea-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/pg/inputs/pg-3-specs.xlsx,pg,Papua New Guinea,https://energydata.info/dataset/papua-new-guinea-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/pg/outputs/pg-3-scenarios-results.zip,pg,Papua New Guinea,https://energydata.info/dataset/papua-new-guinea-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/pg/outputs/pg-3-scenarios-summaries.zip,pg,Papua New Guinea,https://energydata.info/dataset/papua-new-guinea-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,pg,Papua New Guinea,https://energydata.info/dataset/papua-new-guinea-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/pk/inputs/pk-3-country-inputs.csv,pk,Pakistan,https://energydata.info/dataset/pakistan-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/pk/inputs/pk-3-specs.xlsx,pk,Pakistan,https://energydata.info/dataset/pakistan-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/pk/outputs/pk-3-scenarios-results.zip,pk,Pakistan,https://energydata.info/dataset/pakistan-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/pk/outputs/pk-3-scenarios-summaries.zip,pk,Pakistan,https://energydata.info/dataset/pakistan-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,pk,Pakistan,https://energydata.info/dataset/pakistan-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/rw/inputs/rw-3-country-inputs.csv,rw,Rwanda,https://energydata.info/dataset/rwanda-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/rw/inputs/rw-3-specs.xlsx,rw,Rwanda,https://energydata.info/dataset/rwanda-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/rw/outputs/rw-3-scenarios-results.zip,rw,Rwanda,https://energydata.info/dataset/rwanda-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/rw/outputs/rw-3-scenarios-summaries.zip,rw,Rwanda,https://energydata.info/dataset/rwanda-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,rw,Rwanda,https://energydata.info/dataset/rwanda-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/sb/inputs/sb-3-country-inputs.csv,sb,Solomon Islands,https://energydata.info/dataset/solomon-islands-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/sb/inputs/sb-3-specs.xlsx,sb,Solomon Islands,https://energydata.info/dataset/solomon-islands-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/sb/outputs/sb-3-scenarios-results.zip,sb,Solomon Islands,https://energydata.info/dataset/solomon-islands-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/sb/outputs/sb-3-scenarios-summaries.zip,sb,Solomon Islands,https://energydata.info/dataset/solomon-islands-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,sb,Solomon Islands,https://energydata.info/dataset/solomon-islands-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/sd/inputs/sd-3-country-inputs.csv,sd,Sudan,https://energydata.info/dataset/sudan-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/sd/inputs/sd-3-specs.xlsx,sd,Sudan,https://energydata.info/dataset/sudan-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/sd/outputs/sd-3-scenarios-results.zip,sd,Sudan,https://energydata.info/dataset/sudan-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/sd/outputs/sd-3-scenarios-summaries.zip,sd,Sudan,https://energydata.info/dataset/sudan-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,sd,Sudan,https://energydata.info/dataset/sudan-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/sl/inputs/sl-3-country-inputs.csv,sl,Sierra Leone,https://energydata.info/dataset/sierra-leone-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/sl/inputs/sl-3-specs.xlsx,sl,Sierra Leone,https://energydata.info/dataset/sierra-leone-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/sl/outputs/sl-3-scenarios-results.zip,sl,Sierra Leone,https://energydata.info/dataset/sierra-leone-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/sl/outputs/sl-3-scenarios-summaries.zip,sl,Sierra Leone,https://energydata.info/dataset/sierra-leone-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,sl,Sierra Leone,https://energydata.info/dataset/sierra-leone-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/sn/inputs/sn-3-country-inputs.csv,sn,Senegal,https://energydata.info/dataset/senegal-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/sn/inputs/sn-3-specs.xlsx,sn,Senegal,https://energydata.info/dataset/senegal-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/sn/outputs/sn-3-scenarios-results.zip,sn,Senegal,https://energydata.info/dataset/senegal-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/sn/outputs/sn-3-scenarios-summaries.zip,sn,Senegal,https://energydata.info/dataset/senegal-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,sn,Senegal,https://energydata.info/dataset/senegal-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/so/inputs/so-3-country-inputs.csv,so,Somalia,https://energydata.info/dataset/somalia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/so/inputs/so-3-specs.xlsx,so,Somalia,https://energydata.info/dataset/somalia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/so/outputs/so-3-scenarios-results.zip,so,Somalia,https://energydata.info/dataset/somalia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/so/outputs/so-3-scenarios-summaries.zip,so,Somalia,https://energydata.info/dataset/somalia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,so,Somalia,https://energydata.info/dataset/somalia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ss/inputs/ss-3-country-inputs.csv,ss,South Sudan,https://energydata.info/dataset/south-sudan-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ss/inputs/ss-3-specs.xlsx,ss,South Sudan,https://energydata.info/dataset/south-sudan-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ss/outputs/ss-3-scenarios-results.zip,ss,South Sudan,https://energydata.info/dataset/south-sudan-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ss/outputs/ss-3-scenarios-summaries.zip,ss,South Sudan,https://energydata.info/dataset/south-sudan-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ss,South Sudan,https://energydata.info/dataset/south-sudan-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/st/inputs/st-3-country-inputs.csv,st,Sao Tome and Principe,https://energydata.info/dataset/sao-tome-and-principe-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/st/inputs/st-3-specs.xlsx,st,Sao Tome and Principe,https://energydata.info/dataset/sao-tome-and-principe-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/st/outputs/st-3-scenarios-results.zip,st,Sao Tome and Principe,https://energydata.info/dataset/sao-tome-and-principe-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/st/outputs/st-3-scenarios-summaries.zip,st,Sao Tome and Principe,https://energydata.info/dataset/sao-tome-and-principe-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,st,Sao Tome and Principe,https://energydata.info/dataset/sao-tome-and-principe-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/sz/inputs/sz-3-country-inputs.csv,sz,Eswatini,https://energydata.info/dataset/swaziland-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/sz/inputs/sz-3-specs.xlsx,sz,Eswatini,https://energydata.info/dataset/swaziland-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/sz/outputs/sz-3-scenarios-results.zip,sz,Eswatini,https://energydata.info/dataset/swaziland-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/sz/outputs/sz-3-scenarios-summaries.zip,sz,Eswatini,https://energydata.info/dataset/swaziland-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,sz,Eswatini,https://energydata.info/dataset/swaziland-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/td/inputs/td-3-country-inputs.csv,td,Chad,https://energydata.info/dataset/chad-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/td/inputs/td-3-specs.xlsx,td,Chad,https://energydata.info/dataset/chad-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/td/outputs/td-3-scenarios-results.zip,td,Chad,https://energydata.info/dataset/chad-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/td/outputs/td-3-scenarios-summaries.zip,td,Chad,https://energydata.info/dataset/chad-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,td,Chad,https://energydata.info/dataset/chad-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/tg/inputs/tg-3-country-inputs.csv,tg,Togo,https://energydata.info/dataset/togo-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/tg/inputs/tg-3-specs.xlsx,tg,Togo,https://energydata.info/dataset/togo-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/tg/outputs/tg-3-scenarios-results.zip,tg,Togo,https://energydata.info/dataset/togo-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/tg/outputs/tg-3-scenarios-summaries.zip,tg,Togo,https://energydata.info/dataset/togo-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,tg,Togo,https://energydata.info/dataset/togo-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/tl/inputs/tl-3-country-inputs.csv,tl,Timor-Leste,https://energydata.info/dataset/timor-leste-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/tl/inputs/tl-3-specs.xlsx,tl,Timor-Leste,https://energydata.info/dataset/timor-leste-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/tl/outputs/tl-3-scenarios-results.zip,tl,Timor-Leste,https://energydata.info/dataset/timor-leste-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/tl/outputs/tl-3-scenarios-summaries.zip,tl,Timor-Leste,https://energydata.info/dataset/timor-leste-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,tl,Timor-Leste,https://energydata.info/dataset/timor-leste-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/tz/inputs/tz-3-country-inputs.csv,tz,"Tanzania, United Republic of",https://energydata.info/dataset/tanzania-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/tz/inputs/tz-3-specs.xlsx,tz,"Tanzania, United Republic of",https://energydata.info/dataset/tanzania-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/tz/outputs/tz-3-scenarios-results.zip,tz,"Tanzania, United Republic of",https://energydata.info/dataset/tanzania-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/tz/outputs/tz-3-scenarios-summaries.zip,tz,"Tanzania, United Republic of",https://energydata.info/dataset/tanzania-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,tz,"Tanzania, United Republic of",https://energydata.info/dataset/tanzania-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/ug/inputs/ug-3-country-inputs.csv,ug,Uganda,https://energydata.info/dataset/uganda-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/ug/inputs/ug-3-specs.xlsx,ug,Uganda,https://energydata.info/dataset/uganda-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/ug/outputs/ug-3-scenarios-results.zip,ug,Uganda,https://energydata.info/dataset/uganda-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/ug/outputs/ug-3-scenarios-summaries.zip,ug,Uganda,https://energydata.info/dataset/uganda-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,ug,Uganda,https://energydata.info/dataset/uganda-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/vu/inputs/vu-3-country-inputs.csv,vu,Vanuatu,https://energydata.info/dataset/vanuatu-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/vu/inputs/vu-3-specs.xlsx,vu,Vanuatu,https://energydata.info/dataset/vanuatu-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/vu/outputs/vu-3-scenarios-results.zip,vu,Vanuatu,https://energydata.info/dataset/vanuatu-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/vu/outputs/vu-3-scenarios-summaries.zip,vu,Vanuatu,https://energydata.info/dataset/vanuatu-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,vu,Vanuatu,https://energydata.info/dataset/vanuatu-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/za/inputs/za-3-country-inputs.csv,za,South Africa,https://energydata.info/dataset/south-africa-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/za/inputs/za-3-specs.xlsx,za,South Africa,https://energydata.info/dataset/south-africa-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/za/outputs/za-3-scenarios-results.zip,za,South Africa,https://energydata.info/dataset/south-africa-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/za/outputs/za-3-scenarios-summaries.zip,za,South Africa,https://energydata.info/dataset/south-africa-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,za,South Africa,https://energydata.info/dataset/south-africa-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/zm/inputs/zm-3-country-inputs.csv,zm,Zambia,https://energydata.info/dataset/zambia-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/zm/inputs/zm-3-specs.xlsx,zm,Zambia,https://energydata.info/dataset/zambia-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/zm/outputs/zm-3-scenarios-results.zip,zm,Zambia,https://energydata.info/dataset/zambia-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/zm/outputs/zm-3-scenarios-summaries.zip,zm,Zambia,https://energydata.info/dataset/zambia-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,zm,Zambia,https://energydata.info/dataset/zambia-global-electrification-platform-gep
+GEP Climate Energy Modeling Parameters,s3://wbg-geography01/GEP/GEP-Climate-2022/zw/inputs/zw-3-country-inputs.csv,zw,Zimbabwe,https://energydata.info/dataset/zimbabwe-global-electrification-platform-gep
+GEP Climate Scenario Specs,s3://wbg-geography01/GEP/GEP-Climate-2022/zw/inputs/zw-3-specs.xlsx,zw,Zimbabwe,https://energydata.info/dataset/zimbabwe-global-electrification-platform-gep
+GEP Climate Scenario Results,s3://wbg-geography01/GEP/GEP-Climate-2022/zw/outputs/zw-3-scenarios-results.zip,zw,Zimbabwe,https://energydata.info/dataset/zimbabwe-global-electrification-platform-gep
+GEP Climate Scenario Summaries,s3://wbg-geography01/GEP/GEP-Climate-2022/zw/outputs/zw-3-scenarios-summaries.zip,zw,Zimbabwe,https://energydata.info/dataset/zimbabwe-global-electrification-platform-gep
+GEP Climate Column Definitions,s3://wbg-geography01/GEP/GEP-Climate-2022/GEP V.3 Column Description.xlsx,zw,Zimbabwe,https://energydata.info/dataset/zimbabwe-global-electrification-platform-gep
